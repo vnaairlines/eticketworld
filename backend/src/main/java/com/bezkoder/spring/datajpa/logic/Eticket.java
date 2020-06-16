@@ -12,7 +12,13 @@ public class Eticket {
         return randomno.ints(800000000,890000000).findFirst().getAsInt();
     }
 
+// Maybe I will add something later here
     public int getEticketno()
+    {
+        return generateEticketno();
+    }
+
+    public int getEticketdefauld()
     {
         return generateEticketno();
     }
