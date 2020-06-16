@@ -23,5 +23,10 @@ public class Eticket {
         return generateEticketno();
     }
 
+     public int getEticketdefault()
+    {
+        return generateEticketno();
+    }
+
 	
 }
